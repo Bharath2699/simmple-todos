@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.textcontent {
+  color: #000000;
+  font-size: 20px;
+  font-family: Roboto;
+  padding: 10px;
+}
+
+.deletebutton {
+  height: 38px;
+  width: 100px;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: #ff0b37;
+  text-align: center;
+}

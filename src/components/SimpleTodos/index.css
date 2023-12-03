@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.overall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+}
+.card-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
+.heading {
+  text-align: center;
+  color: orange;
+  font-size: 39px;
+  font-family: Roboto;
+}

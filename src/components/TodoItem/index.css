@@ -11,12 +11,35 @@
   font-family: Roboto;
   padding: 10px;
 }
+.button-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .deletebutton {
   height: 38px;
-  width: 100px;
+  width: 85px;
   border-radius: 9px;
   border-style: solid;
   border-color: #ff0b37;
   text-align: center;
+}
+
+.editbutton {
+  height: 38px;
+  width: 80px;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: blue;
+  text-align: center;
+  margin-right: 5px;
+}
+.todo-inputs {
+  height: 40px;
+  width: 456px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 20px;
 }

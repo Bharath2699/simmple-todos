@@ -9,10 +9,42 @@
   margin-top: 60px;
   margin-bottom: 60px;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
 }
 .heading {
   text-align: center;
   color: orange;
   font-size: 39px;
   font-family: Roboto;
+}
+.form-card {
+  align-self: center;
+}
+.todos-addition {
+  height: 40px;
+  width: 500px;
+
+  border-radius: 9px;
+  text-align: center;
+  display: flex;
+}
+.todo-input {
+  height: 40px;
+  width: 80%;
+  background-color: #ffffff;
+  text-align: center;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.addButton {
+  height: 40px;
+  width: 15%;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
 }
